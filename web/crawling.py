@@ -44,6 +44,4 @@ def get_source(url, selenium=True):
 def get_soup(page_source):
     return BeautifulSoup(str(page_source), "html.parser")
 
-if __name__ == '__main__':
-    get_charactor_data('어둠주인')
-    # get_level('버버리우산도둑')
+
