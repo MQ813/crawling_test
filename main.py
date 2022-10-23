@@ -1,6 +1,9 @@
-from game import charactor
+# from game import charactor
+import manage, sys
 
+# 서버 열기 python manage.py runserver
 if __name__ == '__main__':
-    charactor.get_all_raiders('어둠주인')
-    charactor.get_all_raiders('끝까지안가본사람')
-    
+    if len(sys.argv) == 1:
+        sys.argv.append('runserver')
+    manage.main()
+

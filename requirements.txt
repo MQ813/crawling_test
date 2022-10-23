@@ -1,6 +1,9 @@
 # This file may be used to create an environment using:
 # $ conda create --name <env> --file <this file>
 # platform: win-64
+asgiref=3.5.2=py38haa95532_0
+backports=1.1=pyhd3eb1b0_0
+backports.zoneinfo=0.2.1=py38h2bbff1b_0
 beautifulsoup4=4.11.1=py38haa95532_0
 brotlipy=0.7.0=py38h2bbff1b_1003
 bs4=4.11.1=hd3eb1b0_0
@@ -9,6 +12,7 @@ certifi=2022.9.24=py38haa95532_0
 cffi=1.15.1=py38h2bbff1b_0
 charset-normalizer=2.0.4=pyhd3eb1b0_0
 cryptography=37.0.1=py38h21b164f_0
+django=4.1=py38haa95532_0
 idna=3.3=pyhd3eb1b0_0
 openssl=1.1.1q=h2bbff1b_0
 pip=22.2.2=py38haa95532_0
@@ -16,11 +20,14 @@ pycparser=2.21=pyhd3eb1b0_0
 pyopenssl=22.0.0=pyhd3eb1b0_0
 pysocks=1.7.1=py38haa95532_0
 python=3.8.13=h6244533_0
+python-tzdata=2021.1=pyhd3eb1b0_0
 requests=2.28.1=py38haa95532_0
 selenium=3.141.0=py38h2bbff1b_1000
 setuptools=63.4.1=py38haa95532_0
 soupsieve=2.3.1=pyhd3eb1b0_0
 sqlite=3.39.3=h2bbff1b_0
+sqlparse=0.4.1=py_0
+tzdata=2022e=h04d1e81_0
 urllib3=1.26.11=py38haa95532_0
 vc=14.2=h21ff451_1
 vs2015_runtime=14.27.29016=h5e58377_2
